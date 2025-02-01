@@ -24,3 +24,37 @@ This application allows users to interact with a chatbot for managing employee a
   Integration with LangChain for chatbot capabilities
   Persistent data storage using SQLite
   Employee and Department CRUD operations
+
+**Technologies Used**
+Python
+Streamlit
+SQLite
+LangChain (AI Language Model Integration)
+
+**Usage**
+Open the Streamlit app in your browser at the provided URL (usually http://localhost:8501).
+Use the sidebar to:
+Add departments and employees
+Delete employees
+Use the chatbot UI to query or interact with employee data.
+
+**Database Structure**
+The project uses SQLite with the following schema:
+
+#Tables:
+
+1.department: Stores department details.
+id: Primary Key
+name: Unique department name
+
+2.employee: Stores employee details.
+id: Primary Key
+name: Employee name
+department_id: Foreign Key to department
+timestamp: Timestamp for record creation
+
+**Contributing**
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+**License**
+This project is licensed under the MIT License.
