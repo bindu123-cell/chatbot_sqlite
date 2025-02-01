@@ -31,6 +31,9 @@ Streamlit
 SQLite
 LangChain (AI Language Model Integration)
 
+**Installation**
+1.use python -m streamlit run app.py command to run your streamlit application
+
 **Usage**
 Open the Streamlit app in your browser at the provided URL (usually http://localhost:8501).
 Use the sidebar to:
