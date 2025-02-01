@@ -56,8 +56,8 @@ name: Employee name
 department_id: Foreign Key to department
 timestamp: Timestamp for record creation
 
-**Contributing**
-Contributions are welcome! Feel free to open issues or submit pull requests.
+**Limitations:**
+Need billing for continuosly fetching API Key. 
 
 **License**
 This project is licensed under the MIT License.
